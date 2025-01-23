@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { Moon, Book, Settings, Send, Share2, TrendingUp } from 'lucide-react';
-import { dreamSymbols } from './dreamteller-database';
-import { analyzeDreamPatterns } from './dreamteller-patterns';
-import { interpretDream } from './dreamteller-logic';
+import { dreamSymbols } from '../dreamteller-database';
+import { analyzeDreamPatterns } from '../dreamteller-patterns';
+import { interpretDream } from '../dreamteller-logic';
 
 export default function DreamTeller() {
   const [dreamText, setDreamText] = useState('');
